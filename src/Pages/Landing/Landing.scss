@@ -1,0 +1,23 @@
+@import "../../Variables";
+.Landing {
+  padding-top: 6rem;
+  // border: 2px solid red;
+  width: $grid-width-2;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__link {
+    text-decoration: none;
+    margin: 0 auto;
+    width: 15rem;
+    margin-bottom: 2rem;
+    background-color: orange;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}

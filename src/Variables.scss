@@ -1,0 +1,78 @@
+/*
+COLORS
+LightGreen : #7ed56f, rgba(126, 213, 111, 1)
+MediumGreen : #55c57a, rgba(85, 197, 122, 1)
+DarkGreen : #28b485, rgba(40, 180, 133, 1)
+
+Primary: #eb2f64
+Primary light: #FF3366
+Primary dark: #BA265D
+
+Grey light 1: #faf9f9
+Grey light 2: #f4f2f2
+Grey light 3: #f0eeee
+Grey light 4: #ccc
+
+Grey dark 1: #333
+Grey dark 2: #777
+Grey dark 3: #999
+*/
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+// $color-gray-light: rgba(#ecebeb, $alpha: 0.9);
+$color-gray-light: #e4e9eeee;
+// $color-gray-light: #ecebeb;
+// $color-gray-light-2: rgba(212, 212, 212, $alpha: 0.99);
+$color-gray-light-2: #c3d3ddfa;
+// $color-gray-light-2: rgb(212, 212, 212);
+// $color-gray-light-3: rgb(194, 194, 194);
+$color-gray-light-3: #a8bac7;
+
+$color-grey-dark: rgb(112, 112, 112);
+$color-grey-dark-2: rgb(63, 63, 63);
+// $color-white: rgba(#fff, $alpha: 0.7);
+$color-white: #e7f1f8ef;
+// $color-white: #fff;
+$color-black: #000;
+$color-black-lighter: rgb(58, 58, 58);
+
+$details-gradient: linear-gradient(to right, #d4d4d4 30%, #61a4d4f3 100%);
+$details-gradient-2: linear-gradient(to right, #d4d4d48e 30%, #61b0d450 100%);
+
+// FONT
+$logo-size: 5rem;
+$default-font-site: 1.6rem;
+$document-text-size: 1.3rem;
+
+//GRID variables
+$grid-width: 120rem;
+$grid-width-2: 100rem;
+$grid-width-3: 78rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+//PAGE variables
+$site-margin: 2rem;
+$site-margin-2: 0 2rem 2rem 2rem;
+$min-height-of-view: 100rem;
+$min-height-of-view-2: 70vh;
+
+//Box variables
+
+$login-box-width: 55rem;
+$login-box-height: 21rem;
+$register-box-height: 45rem;
+$border-radius-primary: 1rem;
+$border-radius-secondary: 0.3rem;
+
+//Footer
+$footer-height: 25rem;
+$footer-margin-top: 7rem;

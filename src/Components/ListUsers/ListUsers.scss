@@ -1,0 +1,34 @@
+.ListUsers {
+  // border: 2px solid green;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  gap: 1%;
+  &__user {
+    // border: 2px solid yellow;
+    width: 100%;
+    // height: 25rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+    &--link,
+    &--btn {
+      // border: 2px solid yellow;
+      min-width: 35%;
+      background-color: orange;
+      border: none;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+      font-size: 1.5rem;
+    }
+  }
+}

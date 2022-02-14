@@ -1,0 +1,24 @@
+@import "../../Variables";
+.AddEditUser {
+  width: $grid-width-3;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  label {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  input,
+  select,
+  button {
+    background-color: orange;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+  }
+  button {
+    margin-top: 2rem;
+  }
+}
